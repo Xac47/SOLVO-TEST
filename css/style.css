@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+input, button {
+    border: none;
+    outline: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    height: 1500px;
+    margin: 0 auto;
+    border: 1px black solid;
+}
+
+.header {
+
+}
+
+.header > .header-wrap-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    box-shadow: 0 1px 4px 0 rgba(22, 22, 24, 0.10);
+}
+
+.header > .header-wrap-menu > .header-wrap-menu-start {
+    display: flex;
+    gap: 80px;
+}
+
+.header > .header-wrap-menu > .header-wrap-menu-start > ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header > .header-wrap-menu > .header-wrap-menu-end {
+    display: flex;
+    gap: 30px;
+}
+
+.header > .header-wrap-menu > .header-wrap-menu-end > a {
+    display: flex;
+    border-radius: 7px;
+    border: 1px #0069A3 solid;
+    padding: 10px;
+}
+
+.blue {
+    background: #0069A3;
+}
+
+.header-wrap-search {
+    padding-top: 30px;
+    background: #F8F9FB;
+}
+
+.header-wrap-search > .header-wrap-search-start {
+    display: flex;
+    gap: 20px;
+}
+
+.header-wrap-search > .header-wrap-search-start > .header-wrap-search-start__all-categories {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15), 0 2px 3px 0 rgba(0, 0, 0, 0.08);
+}
+
+.header-wrap-search > .header-wrap-search-start > .header-wrap-search-start__search-pole {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header-wrap-search > .header-wrap-search-start > .header-wrap-search-start__search-pole > .header-wrap-search-start__search-pole__top {
+    display: flex;
+}
+
+.header-wrap-search > .header-wrap-search-start > .header-wrap-search-start__search-pole > .header-wrap-search-start__search-pole__top > input {
+    padding: 15px;
+    border: 1px #0069A3 solid;
+    border-radius: 5px;
+}
+
+.header-wrap-search > .header-wrap-search-start > .header-wrap-search-start__search-pole > .header-wrap-search-start__search-pole__top > button {
+    padding: 15px;
+    background: #0069A3;
+    border-radius: 5px;
+    color: white;
+}
+
+.header-wrap-search > .header-wrap-search-start > .header-wrap-search-start__search-pole > .header-wrap-search-start__search-pole__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header-wrap-search > .header-wrap-search-start > .header-wrap-search-start__search-pole > .header-wrap-search-start__search-pole__bottom > ul{
+    display: flex;
+    gap: 40px;
+}
