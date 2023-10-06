@@ -19,12 +19,11 @@ a {
 }
 
 .container {
-    width: 1250px;
-    margin: 0 auto;
+    background: #F8F9FB;
 }
 
 .header {
-
+    background: white;
 }
 
 .header > .header-wrap-menu {
