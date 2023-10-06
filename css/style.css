@@ -29,8 +29,12 @@ a {
 .header > .header-wrap-menu {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
     box-shadow: 0 1px 4px 0 rgba(22, 22, 24, 0.10);
+    padding: 20px 150px;
+}
+
+.header > .header-wrap-search {
+    padding: 30px 150px;
 }
 
 .header > .header-wrap-menu > .header-wrap-menu-start {
@@ -131,3 +135,103 @@ a {
     align-items: center
 }
 
+.main {
+    padding: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main > .main__content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.main > .main__content > .main__content__blog {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 370px;
+    height: 150px;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.main > .main__content > .main__content__blog > .main__content__blog__a-start {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main > .main__content > .main__content__blog > .main__content__blog__a-start > .user-data {
+    display: flex;
+    gap: 10px;
+}
+
+.main > .main__content > .main__content__blog > .main__content__blog__a-start > .user-data > .user-names {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main > .main__content > .main__content__blog > .main__content__blog__a-start > .user-data > .user-names > .user-names__a-start > h4 {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main > .main__content > .main__content__blog > .main__content__blog__a-start > .user-data > .user-names > .user-names__a-start > p {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main > .main__content > .main__content__blog > .main__content__blog__a-start > .user-data > .user-names > .user-names__a-end > h6 {
+    color: #696E7C;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main > .main__content > .main__content__blog > .main__content__blog__a-end {
+    display: flex;
+    gap: 20px;
+}
+
+.main > .main__content > .main__content__blog > .main__content__blog__a-end > .user-rating > h6 {
+    color: #696E7C;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}
+
+.main > .main__content > .main__content__blog > .main__content__blog__a-end > .user-reviews > h6 {
+    color: #0069A3;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}
+
+.main > .main__paginator {
+    display: flex;
+    justify-content: center;
+}
+
+.main > .main__paginator > a {
+    color: #0069A3;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    border: 1px #0069A3 solid;
+    border-radius: 5px;
+    padding: 5px 40px;
+}
